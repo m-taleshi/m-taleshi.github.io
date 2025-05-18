@@ -1,11 +1,15 @@
+"use client"
+
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 import Script from "next/script"
+import ParticlesBackground from "@/components/particles-background"
 
 export default function Experience() {
   return (
     <>
       <Navigation />
+      <ParticlesBackground />
 
       <main className="page-content">
         <div className="container">
@@ -30,9 +34,13 @@ export default function Experience() {
                   </a>
                 </div>
                 <ul className="timeline-details">
-                  <li>Working on Sensitivity of High-Fidelity Neural Interfaces to Perturbations</li>
-                  <li>Developing algorithms for robust motor unit decomposition</li>
-                  <li>Investigating effects of signal quality on neural interface performance</li>
+                  <li className="timeline-detail-item">
+                    Working on Sensitivity of High-Fidelity Neural Interfaces to Perturbations
+                  </li>
+                  <li className="timeline-detail-item">Developing algorithms for robust motor unit decomposition</li>
+                  <li className="timeline-detail-item">
+                    Investigating effects of signal quality on neural interface performance
+                  </li>
                 </ul>
 
                 <h3 className="timeline-subtitle">MSc Students Advisor:</h3>
@@ -96,7 +104,7 @@ export default function Experience() {
                 <h2 className="timeline-title">Full-time Laboratory Teacher</h2>
                 <div className="timeline-company">University of Tehran</div>
                 <ul className="timeline-details">
-                  <li>
+                  <li className="timeline-detail-item">
                     <strong>Linear Control Systems Lab:</strong> Guided ~200 students/year in designing and implementing
                     controllers on real-time systems (e.g., inverted pendulum, ball and beam, DC motor).
                     <div className="video-container">
@@ -111,7 +119,7 @@ export default function Experience() {
                       ></iframe>
                     </div>
                   </li>
-                  <li>
+                  <li className="timeline-detail-item">
                     <strong>Biological Signal Lab:</strong> Assisted ~30 students/year in collecting and processing
                     biological signals (ECG, EEG, EMG, EOG) using MATLAB.
                   </li>
@@ -124,16 +132,18 @@ export default function Experience() {
                 <h2 className="timeline-title">Research Assistant & Teaching Assistant</h2>
                 <div className="timeline-company">Motor Control and Computational Neuroscience lab</div>
                 <ul className="timeline-details">
-                  <li>TA for Principles of Rehabilitation & Equipment</li>
-                  <li>
+                  <li className="timeline-detail-item">TA for Principles of Rehabilitation & Equipment</li>
+                  <li className="timeline-detail-item">
                     Developed a computational model of human motor control for arm reaching movements based on muscle
                     synergies
                   </li>
-                  <li>
+                  <li className="timeline-detail-item">
                     Implemented algorithms for analyzing EMG signals and extracting muscle synergies during complex
                     movements
                   </li>
-                  <li>Conducted experiments to validate computational models against human performance data</li>
+                  <li className="timeline-detail-item">
+                    Conducted experiments to validate computational models against human performance data
+                  </li>
                 </ul>
               </div>
             </div>
@@ -266,6 +276,12 @@ export default function Experience() {
           });
         `}
       </Script>
+      <style jsx>{`
+  .timeline-detail-item {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+  }
+`}</style>
     </>
   )
 }

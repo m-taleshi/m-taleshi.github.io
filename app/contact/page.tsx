@@ -5,6 +5,7 @@ import type React from "react"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 import { useState } from "react"
+import ParticlesBackground from "@/components/particles-background"
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -49,6 +50,7 @@ export default function Contact() {
   return (
     <>
       <Navigation />
+      <ParticlesBackground />
 
       <main className="page-content">
         <div className="container">

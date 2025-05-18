@@ -1,23 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Export your site as fully static HTML/CSS/JS
   output: 'export',
-
-  // (Optional) Add a trailing slash to all URLs if you prefer
-  // trailingSlash: true,
-
   eslint: {
-    // Skip ESLint errors during build
     ignoreDuringBuilds: true,
   },
   typescript: {
-    // Skip TypeScript errors during build
     ignoreBuildErrors: true,
   },
   images: {
-    // Serve unoptimized images (good for static export)
     unoptimized: true,
   },
+  // GitHub Pages needs to know the base path when deployed to username.github.io/repo-name
+  // If deploying to a custom domain or directly to username.github.io, you can remove this line
+  // basePath: '/your-repo-name', // Uncomment and replace with your repo name if needed
 };
 
 export default nextConfig;

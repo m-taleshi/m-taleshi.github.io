@@ -59,10 +59,10 @@ export default function ParticlesBackground() {
         },
         particles: {
           color: {
-            value: "#7c4dff",
+            value: "#e0e0e0", // Changed to light gray
           },
           links: {
-            color: "#7c4dff",
+            color: "#e0e0e0", // Changed to light gray
             distance: 150,
             enable: true,
             opacity: 0.2,
@@ -86,13 +86,13 @@ export default function ParticlesBackground() {
             value: 40,
           },
           opacity: {
-            value: 0.2,
+            value: 0.3, // Slightly increased opacity
           },
           shape: {
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 3 },
+            value: { min: 2, max: 5 }, // Increased size
           },
         },
         detectRetina: true,

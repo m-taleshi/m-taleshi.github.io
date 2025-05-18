@@ -47,6 +47,11 @@ export default function Navigation() {
             </Link>
           </li>
           <li>
+            <Link href="/blogs" className={pathname === "/blogs" ? "active" : ""}>
+              Blogs
+            </Link>
+          </li>
+          <li>
             <Link href="/contact" className={pathname === "/contact" ? "active" : ""}>
               Contact
             </Link>
@@ -70,6 +75,9 @@ export default function Navigation() {
           </li>
           <li>
             <Link href="/experience">Experience</Link>
+          </li>
+          <li>
+            <Link href="/blogs">Blogs</Link>
           </li>
           <li>
             <Link href="/contact">Contact</Link>
