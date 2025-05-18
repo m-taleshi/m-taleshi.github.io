@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mansour Taleshi | Personal Website</title>
+  <meta name="description" content="Personal portfolio website of Mansour Taleshi, PhD candidate in Electrical Engineering and Automation-Bioelectronics">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="blogs.html">Blogs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu">
+    <button class="close-menu" aria-label="Close navigation">
+      <i class="fas fa-times"></i>
+    </button>
+    <ul class="mobile-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="blogs.html">Blogs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div class="mobile-overlay"></div>
+
+  <!-- Main Content -->
+  <main class="home-page">
+    <div class="container home-container">
+      <div class="home-content">
+        <div class="profile-section">
+          <div class="profile-image-container">
+            <img src="images/mansour-profile.jpeg" alt="Mansour Taleshi" class="profile-image">
+          </div>
+
+          <div class="profile-text">
+            <h1 class="name">Mansour Taleshi</h1>
+            <p class="bio">
+              PhD candidate in Electrical Engineering and Automation-Bioelectronics, specializing in
+              neuroengineering with an interest in the brain, movement, and the full spectrum between these two.
+            </p>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="mailto:mansour.taleshi@aalto.fi" class="social-button" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://github.com/m-taleshi" target="_blank" rel="noreferrer" class="social-button" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://x.com/MansourTaleshi" target="_blank" rel="noreferrer" class="social-button" aria-label="X (Twitter)">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/mansour-taleshi-334364117/" target="_blank" rel="noreferrer" class="social-button" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://www.researchgate.net/profile/Mansour-Taleshi" target="_blank" rel="noreferrer" class="social-button" aria-label="ResearchGate">
+            <i class="fab fa-researchgate"></i>
+          </a>
+          <a href="https://scholar.google.com/citations?user=2DVrFwkAAAAJ&hl=en" target="_blank" rel="noreferrer" class="social-button" aria-label="Google Scholar">
+            <i class="fas fa-graduation-cap"></i>
+          </a>
+        </div>
+
+        <p class="tagline">
+          Skilled in designing and implementing data-driven experiments, advanced signal processing, ML/DL
+          algorithms, and computational modeling.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="current-year"></span> Mansour Taleshi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
