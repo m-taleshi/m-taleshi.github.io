@@ -21,7 +21,8 @@ export default function Blogs() {
             </div>
             <h2>Coming Soon</h2>
             <p>
-              Blog posts and research updates will be available here soon.
+              I'm currently working on some exciting content to share with you. Check back soon for research updates,
+              technical insights, and thoughts on the latest developments in neuroengineering and bioelectronics.
             </p>
           </div>
         </div>

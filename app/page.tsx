@@ -59,7 +59,7 @@ export default function Home() {
             </div>
 
             <div className={`social-links ${visible.social ? "visible" : ""}`}>
-              <a href="mailto:mansour.taleshi@gmail.com" className="social-button" aria-label="Email">
+              <a href="mailto:mansour.taleshi@aalto.fi" className="social-button" aria-label="Email">
                 <i className="fas fa-envelope"></i>
               </a>
               <a
@@ -96,7 +96,7 @@ export default function Home() {
                 className="social-button"
                 aria-label="ResearchGate"
               >
-                <i className="fa-brands fa-researchgate"></i>
+                <i className="fab fa-researchgate"></i>
               </a>
               <a
                 href="https://scholar.google.com/citations?user=2DVrFwkAAAAJ&hl=en"
