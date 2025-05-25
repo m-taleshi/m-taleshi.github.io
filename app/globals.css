@@ -2,8 +2,8 @@
 :root {
   --background: #000000;
   --foreground: #ffffff;
-  --primary: #7c4dff;
-  --primary-light: rgba(124, 77, 255, 0.2);
+  --primary: #a9c7ff;
+  --primary-light: rgba(169, 199, 255, 0.2);
   --secondary: #1a1a1a;
   --muted: #666666;
   --border: #333333;
@@ -215,7 +215,7 @@ a:hover {
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid var(--primary);
-  box-shadow: 0 0 20px rgba(124, 77, 255, 0.3);
+  box-shadow: 0 0 20px rgba(169, 199, 255, 0.3);
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.8s ease, transform 0.8s ease;
@@ -286,17 +286,56 @@ a:hover {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background-color: rgba(26, 26, 26, 0.6);
-  color: var(--foreground);
-  transition: all 0.3s ease;
-  border: 1px solid var(--border);
-  backdrop-filter: blur(5px);
+  background-color: #2d2e32;
+  color: #ffffff;
+  transition: all 0.45s;
+  border: 2px solid #2d2e32;
+  text-decoration: none;
+  cursor: pointer;
+  filter: none !important;
+  backdrop-filter: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .social-button:hover {
-  background-color: var(--primary-light);
-  color: var(--primary);
-  transform: translateY(-3px);
+  transform: rotate(360deg);
+  transform-origin: center center;
+  background-color: #ffffff;
+  color: #2d2e32;
+  filter: none !important;
+  backdrop-filter: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.social-button:hover i {
+  color: #2d2e32;
+  filter: none !important;
+  text-shadow: none !important;
+}
+
+/* Specific styling for ResearchGate icon to ensure RG text is visible */
+.social-button:hover .fa-researchgate,
+.social-button:hover .fa-brands.fa-researchgate {
+  color: #2d2e32 !important;
+  fill: #2d2e32 !important;
+}
+
+/* Target SVG elements within ResearchGate icon */
+.social-button:hover .fa-researchgate svg,
+.social-button:hover .fa-brands.fa-researchgate svg,
+.social-button:hover .fa-researchgate path,
+.social-button:hover .fa-brands.fa-researchgate path {
+  fill: #2d2e32 !important;
+  color: #2d2e32 !important;
+}
+
+/* Alternative selectors for different Font Awesome versions */
+.social-button:hover i.fa-researchgate *,
+.social-button:hover i.fa-brands.fa-researchgate * {
+  fill: #2d2e32 !important;
+  color: #2d2e32 !important;
 }
 
 .tagline {
@@ -666,7 +705,7 @@ a:hover {
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(to right, var(--primary), #a47dff);
+  background: linear-gradient(to right, var(--primary), #6e8cff);
   border-radius: 9999px;
   width: 0;
   transition: width 1.5s ease-in-out;
@@ -731,7 +770,7 @@ a:hover {
 }
 
 .submit-button:hover {
-  background-color: #6a3de0;
+  background-color: #6e8cff;
 }
 
 .submit-button:disabled {
@@ -766,6 +805,17 @@ footer {
 footer p {
   font-size: 0.875rem;
   color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+/* Footer social links */
+.footer-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  position: relative;
+  z-index: 20;
 }
 
 /* Dynamic content styling */
