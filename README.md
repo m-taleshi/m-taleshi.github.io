@@ -15,12 +15,17 @@ The website is built with pure HTML, CSS, and JavaScript for maximum compatibili
 
 \`\`\`
 mansour-website/
-├── index.html              # Home page
-├── publications.html       # Publications page
-├── projects.html           # Projects page
-├── experience.html         # Experience page
-├── blogs.html              # Blogs page
-├── contact.html            # Contact page
+├── index.html                # Main homepage
+├── publications/             # Publications page
+│   └── index.html
+├── projects/                 # Projects page
+│   └── index.html
+├── experience/               # Experience page
+│   └── index.html
+├── blogs/                    # Blogs page
+│   └── index.html
+├── contact/                  # Contact page
+│   └── index.html
 ├── css/
 │   └── styles.css          # Main stylesheet
 ├── js/

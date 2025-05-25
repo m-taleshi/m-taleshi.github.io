@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications | Mansour Taleshi</title>
+  <meta name="description" content="Academic publications by Mansour Taleshi, PhD candidate in Electrical Engineering and Automation-Bioelectronics">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+
+  <!-- Theme Toggle -->
+  <div class="theme-toggle">
+    <label class="switch">
+      <input id="theme-input" type="checkbox" checked="darkTheme" />
+      <div class="slider round">
+        <div class="sun-moon">
+          <svg id="moon-dot-1" class="moon-dot" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+          <svg id="moon-dot-2" class="moon-dot" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+          <svg id="moon-dot-3" class="moon-dot" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+          <svg id="light-ray-1" class="light-ray" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+          <svg id="light-ray-2" class="light-ray" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+          <svg id="light-ray-3" class="light-ray" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+
+          <svg id="cloud-1" class="cloud-dark" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+          <svg id="cloud-2" class="cloud-dark" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+          <svg id="cloud-3" class="cloud-dark" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+          <svg id="cloud-4" class="cloud-light" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+          <svg id="cloud-5" class="cloud-light" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+          <svg id="cloud-6" class="cloud-light" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+        </div>
+        <div class="stars">
+          <svg id="star-1" class="star" viewBox="0 0 20 20">
+            <path
+              d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+            ></path>
+          </svg>
+          <svg id="star-2" class="star" viewBox="0 0 20 20">
+            <path
+              d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+            ></path>
+          </svg>
+          <svg id="star-3" class="star" viewBox="0 0 20 20">
+            <path
+              d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+            ></path>
+          </svg>
+          <svg id="star-4" class="star" viewBox="0 0 20 20">
+            <path
+              d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </label>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/publications" class="active">Publications</a></li>
+      <li><a href="/experience">Experience</a></li>
+      <li><a href="/blogs">Blogs</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+    
+    <!-- Cosmic Search -->
+    <div id="search-container">
+      <div class="nebula"></div>
+      <div class="starfield"></div>
+      <div class="cosmic-dust"></div>
+      <div class="cosmic-dust"></div>
+      <div class="cosmic-dust"></div>
+
+      <div class="stardust"></div>
+
+      <div class="cosmic-ring"></div>
+
+      <div id="main">
+        <input
+          class="input"
+          name="text"
+          type="text"
+          placeholder="Explore..."
+        />
+        <div id="input-mask"></div>
+        <div id="cosmic-glow"></div>
+        <div class="wormhole-border"></div>
+        <div id="wormhole-icon">
+          <svg
+            stroke-linejoin="round"
+            stroke-linecap="round"
+            stroke-width="2"
+            stroke="#a9c7ff"
+            fill="none"
+            height="24"
+            width="24"
+            viewBox="0 0 24 24"
+          >
+            <circle r="10" cy="12" cx="12"></circle>
+            <path
+              d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+            ></path>
+            <path d="M2 12h20"></path>
+          </svg>
+        </div>
+        <div id="search-icon">
+          <svg
+            stroke-linejoin="round"
+            stroke-linecap="round"
+            stroke-width="2"
+            stroke="url(#cosmic-search)"
+            fill="none"
+            height="24"
+            width="24"
+            viewBox="0 0 24 24"
+          >
+            <circle r="8" cy="11" cx="11"></circle>
+            <line y2="16.65" x2="16.65" y1="21" x1="21"></line>
+            <defs>
+              <linearGradient gradientTransform="rotate(45)" id="cosmic-search">
+                <stop stop-color="#a9c7ff" offset="0%"></stop>
+                <stop stop-color="#6e8cff" offset="100%"></stop>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu">
+    <button class="close-menu" aria-label="Close navigation">
+      <i class="fas fa-times"></i>
+    </button>
+    <ul class="mobile-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/publications">Publications</a></li>
+      <li><a href="/experience">Experience</a></li>
+      <li><a href="/blogs">Blogs</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="mobile-overlay"></div>
+
+  <!-- Main Content -->
+  <main class="page-content">
+    <div class="container">
+      <header class="page-header">
+        <h1>Publications</h1>
+        <p>My research publications and academic contributions.</p>
+      </header>
+
+      <div class="publications-list">
+        <!-- 2025 Publications -->
+        <div class="publication-card">
+          <div class="publication-header">
+            <h2>Observing Changes in Motoneuron Characteristics Following Distorted Sensorimotor Input via Blood Flow Restriction</h2>
+            <span class="publication-status">2025</span>
+          </div>
+          <div class="publication-content">
+            <div class="publication-grid">
+              <div class="publication-image-container">
+                <img src="../public/images/publications/1_BFR_observing.png" alt="Blood Flow Restriction diagram showing effects on muscle tissue and neural pathways" class="publication-image">
+              </div>
+              <div class="publication-text">
+                <p>
+                  This study investigates how blood flow restriction affects motoneuron characteristics and sensorimotor
+                  input, providing insights into neural adaptations under restricted blood flow conditions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="publication-footer">
+            <div class="authors">M. Taleshi, et al.</div>
+            <div class="journal">Journal of Applied Physiology 138.2 (2025): 559-570</div>
+            <a href="https://journals.physiology.org/doi/full/10.1152/japplphysiol.00603.2024" target="_blank" rel="noreferrer" class="view-paper">
+              View Paper <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="publication-card">
+          <div class="publication-header">
+            <h2>Effects of Blood Flow Restriction on Motoneurons Synchronization</h2>
+            <span class="publication-status">2025</span>
+          </div>
+          <div class="publication-content">
+            <div class="publication-grid">
+              <div class="publication-image-container">
+                <img src="../public/images/publications/2_BFR_coh.png" alt="Experimental setup showing HD-EMG recording during blood flow restriction" class="publication-image">
+              </div>
+              <div class="publication-text">
+                <p>
+                  This research examines the effects of blood flow restriction on motoneuron synchronization, with
+                  implications for understanding neuromuscular adaptations and neural control mechanisms.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="publication-footer">
+            <div class="authors">M. Taleshi, et al.</div>
+            <div class="journal">Frontiers in Neural Circuits 19 (2025): 1561684</div>
+            <a href="https://www.frontiersin.org/journals/neural-circuits/articles/10.3389/fncir.2025.1561684/full" target="_blank" rel="noreferrer" class="view-paper">
+              View Paper <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="publication-card">
+          <div class="publication-header">
+            <h2>Impact of Noise on Deep Learning-Based Pseudo-Online Gesture Recognition with High-Density EMG</h2>
+            <span class="publication-status">2025</span>
+          </div>
+          <div class="publication-content">
+            <div class="publication-grid">
+              <div class="publication-image-container">
+                <img src="../public/images/publications/3_HD-EMG_noise.png" alt="Diagram showing noise effects on EMG signal processing for gesture recognition" class="publication-image">
+              </div>
+              <div class="publication-text">
+                <p>
+                  This study explores how noise affects deep learning-based gesture recognition systems using
+                  high-density EMG, with implications for improving robustness in neural interfaces and prosthetic
+                  control.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="publication-footer">
+            <div class="authors">M. Taleshi, et al.</div>
+            <div class="journal">EMBC, 2025</div>
+          </div>
+        </div>
+
+        <!-- 2022 Publications -->
+        <div class="publication-card">
+          <div class="publication-header">
+            <h2>Muscle Synergy-driven Motor Unit Clustering for Human-Machine Interfacing</h2>
+            <span class="publication-status">2022</span>
+          </div>
+          <div class="publication-content">
+            <div class="publication-grid">
+              <div class="publication-image-container">
+                <img src="../public/images/publications/4_nmf.png" alt="Comparison of non-clustered vs. clustered motor units with visualization of contraction cues" class="publication-image">
+              </div>
+              <div class="publication-text">
+                <p>
+                  This paper presents a novel approach to motor unit clustering based on muscle synergies, with
+                  applications in human-machine interfacing and neural control of movement.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="publication-footer">
+            <div class="authors">M. Taleshi, et al.</div>
+            <div class="journal">EMBC, pp. 4147-4150. IEEE, 2022</div>
+            <a href="https://ieeexplore.ieee.org/abstract/document/9871356" target="_blank" rel="noreferrer" class="view-paper">
+              View Paper <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2017 Publications -->
+        <div class="publication-card">
+          <div class="publication-header">
+            <h2>Variation of Spatiotemporal Arm Muscle Synergies during Drawing Spirals and Circles: Can It Be Applied in the Analysis of Learning?</h2>
+            <span class="publication-status">2017</span>
+          </div>
+          <div class="publication-content">
+            <div class="publication-grid">
+              <div class="publication-image-container">
+                <img src="../public/images/publications/5_embc2.png" alt="Person performing spiral tracking task with EMG sensors" class="publication-image">
+              </div>
+              <div class="publication-text">
+                <p>
+                  This research investigates how arm muscle synergies vary during drawing tasks, with potential
+                  applications in understanding motor learning and skill acquisition.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="publication-footer">
+            <div class="authors">M. Taleshi, et al.</div>
+            <div class="journal">ICBME, pp. 330-333, IEEE, 2017</div>
+            <a href="https://ieeexplore.ieee.org/abstract/document/8430286" target="_blank" rel="noreferrer" class="view-paper">
+              View Paper <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2016 Publications -->
+        <div class="publication-card">
+          <div class="publication-header">
+            <h2>Exploring the effect of training on muscle synergies and kinematics of a spiral tracking task</h2>
+            <span class="publication-status">2016</span>
+          </div>
+          <div class="publication-content">
+            <div class="publication-grid">
+              <div class="publication-image-container">
+                <img src="../public/images/publications/6_embc1.png" alt="Graphs showing time-series data of muscle synergies across different sessions" class="publication-image">
+              </div>
+              <div class="publication-text">
+                <p>
+                  This study examines how training affects muscle synergies and kinematics during spiral tracking tasks,
+                  providing insights into motor learning and adaptation.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="publication-footer">
+            <div class="authors">M. Taleshi, et al.</div>
+            <div class="journal">ICBME, pp. 312-315, IEEE, 2016</div>
+            <a href="https://ieeexplore.ieee.org/abstract/document/7890979" target="_blank" rel="noreferrer" class="view-paper">
+              View Paper <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Preprints -->
+        <div class="publication-card">
+          <div class="publication-header">
+            <h2>Effects of Spatial and Signal-Imposed Noises on Motor Unit Decomposition</h2>
+            <span class="publication-status">Preprint</span>
+          </div>
+          <div class="publication-content">
+            <div class="publication-grid">
+              <div class="publication-image-container">
+                <img src="../public/images/publications/8_decomp.png" alt="Illustration of motor unit decomposition process showing neural signals and HD-EMG recording" class="publication-image">
+              </div>
+              <div class="publication-text">
+                <p>
+                  High-density EMG decomposition accurately extracts motor unit activity, but global white Gaussian
+                  noise severely disrupts both yield and neural drive estimation. In contrast, channel loss,
+                  electrode shift, and localized noise have minimal impact. These findings emphasize the need for
+                  high signal quality and algorithmic robustness in real-world applications.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="publication-footer">
+            <div class="authors">M. Taleshi, et al.</div>
+            <div class="status">Preprint</div>
+          </div>
+        </div>
+
+        <div class="publication-card">
+          <div class="publication-header">
+            <h2>Sensitivity of Motor Unit Driven Motion Classification to Signal Degradation</h2>
+            <span class="publication-status">Preprint</span>
+          </div>
+          <div class="publication-content">
+            <div class="publication-grid">
+              <div class="publication-image-container">
+                <img src="../public/images/publications/7_mu_sensitivity.png" alt="Experimental setup for motor unit recording showing neural pathways from brain to muscle" class="publication-image">
+              </div>
+              <div class="publication-text">
+                <p>
+                  This research examines how signal degradation affects motor unit-driven motion classification
+                  accuracy, with implications for improving robustness in neural interfaces and prosthetic control.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="publication-footer">
+            <div class="authors">M. Taleshi, et al.</div>
+            <div class="status">Preprint</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="current-year"></span> Mansour Taleshi. All rights reserved.</p>
+      <div class="footer-social-links">
+        <a href="mailto:mansour.taleshi@gmail.com" class="social-button" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/m-taleshi" target="_blank" rel="noreferrer" class="social-button" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://x.com/MansourTaleshi" target="_blank" rel="noreferrer" class="social-button" aria-label="X (Twitter)">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mansour-taleshi-334364117/" target="_blank" rel="noreferrer" class="social-button" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.researchgate.net/profile/Mansour-Taleshi" target="_blank" rel="noreferrer" class="social-button" aria-label="ResearchGate">
+          <i class="fa-brands fa-researchgate"></i>
+        </a>
+        <a href="https://scholar.google.com/citations?user=2DVrFwkAAAAJ&hl=en" target="_blank" rel="noreferrer" class="social-button" aria-label="Google Scholar">
+          <i class="fas fa-graduation-cap"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

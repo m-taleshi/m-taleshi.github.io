@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mansour Taleshi | Personal Website</title>
-  <meta name="description" content="Personal portfolio website of Mansour Taleshi, PhD candidate in Electrical Engineering and Automation-Bioelectronics">
+  <title>Blogs | Mansour Taleshi</title>
+  <meta name="description" content="News and blog posts by Mansour Taleshi, PhD candidate in Electrical Engineering and Automation-Bioelectronics">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
   <!-- Particles Background -->
@@ -89,11 +89,11 @@
       <i class="fas fa-bars"></i>
     </button>
     <ul class="nav-links">
-      <li><a href="/" class="active">Home</a></li>
+      <li><a href="/">Home</a></li>
       <li><a href="/projects">Projects</a></li>
       <li><a href="/publications">Publications</a></li>
       <li><a href="/experience">Experience</a></li>
-      <li><a href="/blogs">Blogs</a></li>
+      <li><a href="/blogs" class="active">Blogs</a></li>
       <li><a href="/contact">Contact</a></li>
     </ul>
     
@@ -179,47 +179,20 @@
   <div class="mobile-overlay"></div>
 
   <!-- Main Content -->
-  <main class="home-page">
-    <div class="container home-container">
-      <div class="home-content">
-        <div class="profile-section">
-          <div class="profile-image-container">
-            <img src="public/images/mansour-profile.jpeg" alt="Mansour Taleshi" class="profile-image">
-          </div>
+  <main class="page-content">
+    <div class="container">
+      <header class="page-header">
+        <h1>News & Blogs</h1>
+        <p>Stay updated with my latest research news, insights, and blog posts.</p>
+      </header>
 
-          <div class="profile-text">
-            <h1 class="name">Mansour Taleshi</h1>
-            <p class="bio">
-              PhD candidate in Electrical Engineering and Automation-Bioelectronics, specializing in
-              neuroengineering with an interest in the brain, movement, and the full spectrum between these two.
-            </p>
-          </div>
+      <div class="empty-state">
+        <div class="empty-state-icon">
+          <i class="fas fa-newspaper"></i>
         </div>
-
-        <div class="social-links">
-          <a href="mailto:mansour.taleshi@gmail.com" class="social-button" aria-label="Email">
-            <i class="fas fa-envelope"></i>
-          </a>
-          <a href="https://github.com/m-taleshi" target="_blank" rel="noreferrer" class="social-button" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://x.com/MansourTaleshi" target="_blank" rel="noreferrer" class="social-button" aria-label="X (Twitter)">
-            <i class="fab fa-x-twitter"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/mansour-taleshi-334364117/" target="_blank" rel="noreferrer" class="social-button" aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://www.researchgate.net/profile/Mansour-Taleshi" target="_blank" rel="noreferrer" class="social-button" aria-label="ResearchGate">
-            <i class="fa-brands fa-researchgate"></i>
-          </a>
-          <a href="https://scholar.google.com/citations?user=2DVrFwkAAAAJ&hl=en" target="_blank" rel="noreferrer" class="social-button" aria-label="Google Scholar">
-            <i class="fas fa-graduation-cap"></i>
-          </a>
-        </div>
-
-        <p class="tagline">
-          Skilled in designing and implementing data-driven experiments, advanced signal processing, ML/DL
-          algorithms, and computational modeling.
+        <h2>Coming Soon</h2>
+        <p>
+          Blog posts and research updates will be available here soon.
         </p>
       </div>
     </div>
@@ -229,11 +202,31 @@
   <footer>
     <div class="container">
       <p>&copy; <span id="current-year"></span> Mansour Taleshi. All rights reserved.</p>
+      <div class="footer-social-links">
+        <a href="mailto:mansour.taleshi@gmail.com" class="social-button" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/m-taleshi" target="_blank" rel="noreferrer" class="social-button" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://x.com/MansourTaleshi" target="_blank" rel="noreferrer" class="social-button" aria-label="X (Twitter)">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mansour-taleshi-334364117/" target="_blank" rel="noreferrer" class="social-button" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.researchgate.net/profile/Mansour-Taleshi" target="_blank" rel="noreferrer" class="social-button" aria-label="ResearchGate">
+          <i class="fa-brands fa-researchgate"></i>
+        </a>
+        <a href="https://scholar.google.com/citations?user=2DVrFwkAAAAJ&hl=en" target="_blank" rel="noreferrer" class="social-button" aria-label="Google Scholar">
+          <i class="fas fa-graduation-cap"></i>
+        </a>
+      </div>
     </div>
   </footer>
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="../js/main.js"></script>
 </body>
 </html>
