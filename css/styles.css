@@ -2355,6 +2355,83 @@ body.light-theme footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+/* Light mode search popup styling */
+body.light-theme #search-results {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+body.light-theme .search-results-container {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .search-results-header {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .search-results-header h3 {
+  color: rgba(26, 26, 26, 0.9);
+}
+
+body.light-theme .search-results-input {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(26, 26, 26, 0.9);
+}
+
+body.light-theme .search-results-input::placeholder {
+  color: rgba(26, 26, 26, 0.6);
+}
+
+body.light-theme .search-results-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(77, 109, 255, 0.2);
+}
+
+body.light-theme .close-search {
+  color: rgba(26, 26, 26, 0.6);
+}
+
+body.light-theme .close-search:hover {
+  color: rgba(26, 26, 26, 0.9);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .search-result-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .search-result-item:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .search-result-item h4 a {
+  color: rgba(26, 26, 26, 0.9);
+}
+
+body.light-theme .search-result-item h4 a:hover {
+  color: var(--primary);
+}
+
+body.light-theme .search-result-item p {
+  color: rgba(26, 26, 26, 0.7);
+}
+
+body.light-theme .search-result-item mark {
+  background-color: rgba(77, 109, 255, 0.2);
+  color: rgba(26, 26, 26, 0.9);
+}
+
+body.light-theme .result-url {
+  color: var(--primary);
+}
+
+body.light-theme .no-results p {
+  color: rgba(26, 26, 26, 0.6);
+}
+
 /* Responsive adjustments for toggle */
 @media (max-width: 768px) {
   /* Hide search bar completely in mobile */
@@ -2407,10 +2484,11 @@ body.light-theme footer {
   color: rgba(255, 255, 255, 0.8);
   margin: 0 0 1rem 0;
   display: -webkit-box;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  min-height: 3.25rem; /* Ensure consistent height for 2 lines */
 }
 
 /* Read More Button */
