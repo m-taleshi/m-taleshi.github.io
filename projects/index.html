@@ -194,15 +194,10 @@
           <div class="card-content">
             <p class="project-date">Mar. 2021 – Dec. 2024</p>
             <div class="dynamic-content">
-              <p>
-                Developed MU decoding algorithms, implemented NMF clustering, analyzed the impact of signal
-                perturbations, and contributed to writing and editing the manuscript.
+              <p class="project-summary">
+                Developed MU decoding algorithms, implemented NMF clustering, analyzed the impact of signal perturbations...
               </p>
-            </div>
-            <div class="tags">
-              <span class="tag">Python</span>
-              <span class="tag">Machine Learning</span>
-              <span class="tag">Signal Processing</span>
+              <button class="read-more-btn" onclick="openModal('modal1')">Read More</button>
             </div>
           </div>
         </div>
@@ -214,16 +209,10 @@
           <div class="card-content">
             <p class="project-date">Jun. 2022 – Dec. 2024</p>
             <div class="dynamic-content">
-              <p>
-                Conducted the experiment at University of Stuttgart during my visit in June 2022 and March 2023,
-                implemented HD-EMG signal processing, analyzed motor unit coherence and performance, and contributed
-                to writing and editing the manuscript.
+              <p class="project-summary">
+                Conducted the experiment at University of Stuttgart during my visit in June 2022 and March 2023...
               </p>
-            </div>
-            <div class="tags">
-              <span class="tag">HD-EMG</span>
-              <span class="tag">MATLAB</span>
-              <span class="tag">Data Analysis</span>
+              <button class="read-more-btn" onclick="openModal('modal2')">Read More</button>
             </div>
           </div>
         </div>
@@ -235,17 +224,10 @@
           <div class="card-content">
             <p class="project-date">Sep. 2022 – Jul. 2024</p>
             <div class="dynamic-content">
-              <p>
-                Advised BSc and MSc students on experimental design and data collection methods, contributed to
-                coding machine learning algorithms, assisted in developing the GUI using PyQt for real-time data
-                acquisition and analysis, and worked on improving prosthetic hand control systems.
+              <p class="project-summary">
+                Advised BSc and MSc students on experimental design and data collection methods...
               </p>
-            </div>
-            <div class="tags">
-              <span class="tag">Python</span>
-              <span class="tag">PyQt</span>
-              <span class="tag">EMG</span>
-              <span class="tag">Machine Learning</span>
+              <button class="read-more-btn" onclick="openModal('modal3')">Read More</button>
             </div>
           </div>
         </div>
@@ -257,17 +239,10 @@
           <div class="card-content">
             <p class="project-date">Mar. 2024 – Present</p>
             <div class="dynamic-content">
-              <p>
-                Contributed to experimental design, participated in data collection, analyzed EMG, kinematic, and
-                MEG data, and worked on identifying correlations between muscle activity, brain dynamics, and
-                handwriting performance.
+              <p class="project-summary">
+                Contributed to experimental design, participated in data collection, analyzed EMG, kinematic, and MEG data...
               </p>
-            </div>
-            <div class="tags">
-              <span class="tag">MEG</span>
-              <span class="tag">EMG</span>
-              <span class="tag">Neuroscience</span>
-              <span class="tag">Data Analysis</span>
+              <button class="read-more-btn" onclick="openModal('modal4')">Read More</button>
             </div>
           </div>
         </div>
@@ -279,16 +254,10 @@
           <div class="card-content">
             <p class="project-date">Oct. 2023 – Present</p>
             <div class="dynamic-content">
-              <p>
-                Contributed to the experimental design, participated in data collection, analyzed high-density EMG
-                (HDEMG) data, and extended the analysis of MEPs to cover spatial-temporal dynamics. Additionally,
-                focused on extracting neural drives during pre- and post-stimulation sessions.
+              <p class="project-summary">
+                Contributed to the experimental design, participated in data collection, analyzed high-density EMG data...
               </p>
-            </div>
-            <div class="tags">
-              <span class="tag">HD-EMG</span>
-              <span class="tag">Neural Drives</span>
-              <span class="tag">MEP Analysis</span>
+              <button class="read-more-btn" onclick="openModal('modal5')">Read More</button>
             </div>
           </div>
         </div>
@@ -300,16 +269,10 @@
           <div class="card-content">
             <p class="project-date">Dec. 2023 – Present</p>
             <div class="dynamic-content">
-              <p>
-                Contributing to experimental design, participating in the development of the Dextrimeter device,
-                integrating force measurements with the TMS system, and analyzing the force across different MVC
-                levels.
+              <p class="project-summary">
+                Contributing to experimental design, participating in the development of the Dextrimeter device...
               </p>
-            </div>
-            <div class="tags">
-              <span class="tag">Rehabilitation</span>
-              <span class="tag">Force Measurement</span>
-              <span class="tag">TMS</span>
+              <button class="read-more-btn" onclick="openModal('modal6')">Read More</button>
             </div>
           </div>
         </div>
@@ -321,22 +284,172 @@
           <div class="card-content">
             <p class="project-date">Dec. 2023 – Present</p>
             <div class="dynamic-content">
-              <p>
-                Contributed to the experimental design, integrated high-density EMG and force measurements with the
-                mTMS system, and analyzed the force output along with the HD EMG spatial maps across different mTMS
-                stimulation conditions.
+              <p class="project-summary">
+                Contributed to the experimental design, integrated high-density EMG and force measurements...
               </p>
-            </div>
-            <div class="tags">
-              <span class="tag">mTMS</span>
-              <span class="tag">HD-EMG</span>
-              <span class="tag">Force Analysis</span>
+              <button class="read-more-btn" onclick="openModal('modal7')">Read More</button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </main>
+
+  <!-- Project Modals -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Robustness of Motor Unit Decoding and Clustering via NMF for Human-Machine Interfacing</h2>
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p class="project-date">Mar. 2021 – Dec. 2024</p>
+        <p>
+          Developed MU decoding algorithms, implemented NMF clustering, analyzed the impact of signal
+          perturbations, and contributed to writing and editing the manuscript.
+        </p>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Signal Processing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Blood Flow Restriction Alters the Motor Neurons and the Common Synaptic Input to Them</h2>
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p class="project-date">Jun. 2022 – Dec. 2024</p>
+        <p>
+          Conducted the experiment at University of Stuttgart during my visit in June 2022 and March 2023,
+          implemented HD-EMG signal processing, analyzed motor unit coherence and performance, and contributed
+          to writing and editing the manuscript.
+        </p>
+        <div class="tags">
+          <span class="tag">HD-EMG</span>
+          <span class="tag">MATLAB</span>
+          <span class="tag">Data Analysis</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Enhancing Prosthetic Hand Control with EMG-Armband and Machine Learning</h2>
+        <span class="close" onclick="closeModal('modal3')">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p class="project-date">Sep. 2022 – Jul. 2024</p>
+        <p>
+          Advised BSc and MSc students on experimental design and data collection methods, contributed to
+          coding machine learning algorithms, assisted in developing the GUI using PyQt for real-time data
+          acquisition and analysis, and worked on improving prosthetic hand control systems.
+        </p>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">PyQt</span>
+          <span class="tag">EMG</span>
+          <span class="tag">Machine Learning</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Mind to Muscle: Neural Decoding of Handwriting Errors</h2>
+        <span class="close" onclick="closeModal('modal4')">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p class="project-date">Mar. 2024 – Present</p>
+        <p>
+          Contributed to experimental design, participated in data collection, analyzed EMG, kinematic, and
+          MEG data, and worked on identifying correlations between muscle activity, brain dynamics, and
+          handwriting performance.
+        </p>
+        <div class="tags">
+          <span class="tag">MEG</span>
+          <span class="tag">EMG</span>
+          <span class="tag">Neuroscience</span>
+          <span class="tag">Data Analysis</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>High-Frequency Paired Associative Stimulation and Its Neuromuscular Effects</h2>
+        <span class="close" onclick="closeModal('modal5')">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p class="project-date">Oct. 2023 – Present</p>
+        <p>
+          Contributed to the experimental design, participated in data collection, analyzed high-density EMG
+          (HDEMG) data, and extended the analysis of MEPs to cover spatial-temporal dynamics. Additionally,
+          focused on extracting neural drives during pre- and post-stimulation sessions.
+        </p>
+        <div class="tags">
+          <span class="tag">HD-EMG</span>
+          <span class="tag">Neural Drives</span>
+          <span class="tag">MEP Analysis</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal6" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Dextrimeter: Advancing Stroke Rehabilitation by Capturing Finger Force Metrics</h2>
+        <span class="close" onclick="closeModal('modal6')">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p class="project-date">Dec. 2023 – Present</p>
+        <p>
+          Contributing to experimental design, participating in the development of the Dextrimeter device,
+          integrating force measurements with the TMS system, and analyzing the force across different MVC
+          levels.
+        </p>
+        <div class="tags">
+          <span class="tag">Rehabilitation</span>
+          <span class="tag">Force Measurement</span>
+          <span class="tag">TMS</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal7" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Exploring mTMS Pulse Effects on Motor Force and HD-EMG Mapping</h2>
+        <span class="close" onclick="closeModal('modal7')">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p class="project-date">Dec. 2023 – Present</p>
+        <p>
+          Contributed to the experimental design, integrated high-density EMG and force measurements with the
+          mTMS system, and analyzed the force output along with the HD EMG spatial maps across different mTMS
+          stimulation conditions.
+        </p>
+        <div class="tags">
+          <span class="tag">mTMS</span>
+          <span class="tag">HD-EMG</span>
+          <span class="tag">Force Analysis</span>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer>
@@ -368,5 +481,39 @@
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="../js/main.js"></script>
+  
+  <script>
+    // Modal functionality
+    function openModal(modalId) {
+      document.getElementById(modalId).style.display = 'block';
+      document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    }
+
+    function closeModal(modalId) {
+      document.getElementById(modalId).style.display = 'none';
+      document.body.style.overflow = 'auto'; // Restore scrolling
+    }
+
+    // Close modal when clicking outside of it
+    window.onclick = function(event) {
+      if (event.target.classList.contains('modal')) {
+        event.target.style.display = 'none';
+        document.body.style.overflow = 'auto';
+      }
+    }
+
+    // Close modal with Escape key
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        const modals = document.querySelectorAll('.modal');
+        modals.forEach(modal => {
+          if (modal.style.display === 'block') {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>
