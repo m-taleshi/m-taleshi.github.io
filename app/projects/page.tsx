@@ -16,65 +16,50 @@ export default function Projects() {
           </header>
 
           <div className="projects-grid">
+            {/* ONGOING PROJECTS - Sorted by start date (newest first) */}
+            
             <div className="card">
               <div className="card-header">
-                <h2>Robustness of Motor Unit Decoding and Clustering via NMF for Human-Machine Interfacing</h2>
+                <h2>Quantification of Physical Activity Using Wearable Sensors</h2>
               </div>
               <div className="card-content">
-                <p className="project-date">Mar. 2021 – Dec. 2024</p>
+                <p className="project-date">Nov. 2025 – Present</p>
                 <div className="dynamic-content">
                   <p>
-                    Developed MU decoding algorithms, implemented NMF clustering, analyzed the impact of signal
-                    perturbations, and contributed to writing and editing the manuscript.
+                    As part of my postdoctoral research at the University of Jyväskylä, I am working on improving
+                    physical activity measurement by combining accelerometry and heart-rate data from wearable sensors.
+                    This project aims to develop more accurate methods for quantifying daily physical activity levels
+                    and understanding movement patterns in real-world settings.
                   </p>
                 </div>
                 <div className="tags">
-                  <span className="tag">Python</span>
-                  <span className="tag">Machine Learning</span>
+                  <span className="tag">Wearables</span>
                   <span className="tag">Signal Processing</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="card">
-              <div className="card-header">
-                <h2>Blood Flow Restriction Alters the Motor Neurons and the Common Synaptic Input to Them</h2>
-              </div>
-              <div className="card-content">
-                <p className="project-date">Jun. 2022 – Dec. 2024</p>
-                <div className="dynamic-content">
-                  <p>
-                    Conducted the experiment at University of Stuttgart during my visit in June 2022 and March 2023,
-                    implemented HD-EMG signal processing, analyzed motor unit coherence and performance, and contributed
-                    to writing and editing the manuscript.
-                  </p>
-                </div>
-                <div className="tags">
-                  <span className="tag">HD-EMG</span>
-                  <span className="tag">MATLAB</span>
                   <span className="tag">Data Analysis</span>
+                  <span className="tag">e-Health</span>
                 </div>
               </div>
             </div>
 
             <div className="card">
               <div className="card-header">
-                <h2>Enhancing Prosthetic Hand Control with EMG-Armband and Machine Learning</h2>
+                <h2>Remote Estimation of Physical Fitness</h2>
               </div>
               <div className="card-content">
-                <p className="project-date">Sep. 2022 – Jul. 2024</p>
+                <p className="project-date">Nov. 2025 – Present</p>
                 <div className="dynamic-content">
                   <p>
-                    Advised BSc and MSc students on experimental design and data collection methods, contributed to
-                    coding machine learning algorithms, assisted in developing the GUI using PyQt for real-time data
-                    acquisition and analysis, and worked on improving prosthetic hand control systems.
+                    Developing a mobile-app method to remotely estimate cardiorespiratory fitness. The pilot app is
+                    currently available in Finnish, with ongoing data collection to validate the fitness estimation
+                    algorithms. This research aims to make fitness assessment more accessible by eliminating the need
+                    for laboratory testing.
                   </p>
                 </div>
                 <div className="tags">
-                  <span className="tag">Python</span>
-                  <span className="tag">PyQt</span>
-                  <span className="tag">EMG</span>
-                  <span className="tag">Machine Learning</span>
+                  <span className="tag">Mobile App</span>
+                  <span className="tag">Fitness</span>
+                  <span className="tag">Data Collection</span>
+                  <span className="tag">Android</span>
                 </div>
               </div>
             </div>
@@ -97,27 +82,6 @@ export default function Projects() {
                   <span className="tag">EMG</span>
                   <span className="tag">Neuroscience</span>
                   <span className="tag">Data Analysis</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="card">
-              <div className="card-header">
-                <h2>High-Frequency Paired Associative Stimulation and Its Neuromuscular Effects</h2>
-              </div>
-              <div className="card-content">
-                <p className="project-date">Oct. 2023 – Present</p>
-                <div className="dynamic-content">
-                  <p>
-                    Contributed to the experimental design, participated in data collection, analyzed high-density EMG
-                    (HDEMG) data, and extended the analysis of MEPs to cover spatial-temporal dynamics. Additionally,
-                    focused on extracting neural drives during pre- and post-stimulation sessions.
-                  </p>
-                </div>
-                <div className="tags">
-                  <span className="tag">HD-EMG</span>
-                  <span className="tag">Neural Drives</span>
-                  <span className="tag">MEP Analysis</span>
                 </div>
               </div>
             </div>
@@ -160,6 +124,92 @@ export default function Projects() {
                   <span className="tag">mTMS</span>
                   <span className="tag">HD-EMG</span>
                   <span className="tag">Force Analysis</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="card">
+              <div className="card-header">
+                <h2>High-Frequency Paired Associative Stimulation and Its Neuromuscular Effects</h2>
+              </div>
+              <div className="card-content">
+                <p className="project-date">Oct. 2023 – Present</p>
+                <div className="dynamic-content">
+                  <p>
+                    Contributed to the experimental design, participated in data collection, analyzed high-density EMG
+                    (HDEMG) data, and extended the analysis of MEPs to cover spatial-temporal dynamics. Additionally,
+                    focused on extracting neural drives during pre- and post-stimulation sessions.
+                  </p>
+                </div>
+                <div className="tags">
+                  <span className="tag">HD-EMG</span>
+                  <span className="tag">Neural Drives</span>
+                  <span className="tag">MEP Analysis</span>
+                </div>
+              </div>
+            </div>
+
+            {/* FINISHED PROJECTS - Sorted by start date (newest first) */}
+
+            <div className="card">
+              <div className="card-header">
+                <h2>Enhancing Prosthetic Hand Control with EMG-Armband and Machine Learning</h2>
+              </div>
+              <div className="card-content">
+                <p className="project-date">Sep. 2022 – Jul. 2024</p>
+                <div className="dynamic-content">
+                  <p>
+                    Advised BSc and MSc students on experimental design and data collection methods, contributed to
+                    coding machine learning algorithms, assisted in developing the GUI using PyQt for real-time data
+                    acquisition and analysis, and worked on improving prosthetic hand control systems.
+                  </p>
+                </div>
+                <div className="tags">
+                  <span className="tag">Python</span>
+                  <span className="tag">PyQt</span>
+                  <span className="tag">EMG</span>
+                  <span className="tag">Machine Learning</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="card">
+              <div className="card-header">
+                <h2>Blood Flow Restriction Alters the Motor Neurons and the Common Synaptic Input to Them</h2>
+              </div>
+              <div className="card-content">
+                <p className="project-date">Jun. 2022 – Dec. 2024</p>
+                <div className="dynamic-content">
+                  <p>
+                    Conducted the experiment at University of Stuttgart during my visit in June 2022 and March 2023,
+                    implemented HD-EMG signal processing, analyzed motor unit coherence and performance, and contributed
+                    to writing and editing the manuscript.
+                  </p>
+                </div>
+                <div className="tags">
+                  <span className="tag">HD-EMG</span>
+                  <span className="tag">MATLAB</span>
+                  <span className="tag">Data Analysis</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="card">
+              <div className="card-header">
+                <h2>Robustness of Motor Unit Decoding and Clustering via NMF for Human-Machine Interfacing</h2>
+              </div>
+              <div className="card-content">
+                <p className="project-date">Mar. 2021 – Dec. 2024</p>
+                <div className="dynamic-content">
+                  <p>
+                    Developed MU decoding algorithms, implemented NMF clustering, analyzed the impact of signal
+                    perturbations, and contributed to writing and editing the manuscript.
+                  </p>
+                </div>
+                <div className="tags">
+                  <span className="tag">Python</span>
+                  <span className="tag">Machine Learning</span>
+                  <span className="tag">Signal Processing</span>
                 </div>
               </div>
             </div>
